@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:whitesmoke;
+    border: 3px solid #ddd;
+    border-radius: 9px ;
+    box-shadow:  0px 0.4px;
+    margin: 0.8rem;
+    
+}
+#page-banner{
+    text-align: center;
+    background-color: rgb(181, 172, 172);
+    border-radius: 9px 9px 0px 0px ;
+}
+h2{
+    font-size: 3.9rem;
+    padding-top: 30px;
+    padding-bottom: 14px;
+}
+p{
+    font-size: 25px;
+    padding-bottom: 14px;
+}
+#btn2{
+    margin-bottom: 25px;
+    background-color: rgb(194, 186, 186);
+    padding: 12px 150px;
+    border-radius: 5px;
+
+}
+#btn2::placeholder{
+    font-size: 18px;
+    position: relative;
+    left: -145px;
+}
+
+#Book-list{
+    margin:3px 0px 0px 40px;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+li{
+    margin-top: 4rem;
+    background-color: #ddd;
+    border: 1px solid rgba(195, 192, 192, 0.826);
+    border-radius: 5px;
+    display: flex;
+
+}
+ ul li .name{
+    flex:1 ;
+}
+
+ul li .delete{
+   background-color: purple;
+   margin-right: 70px;
+   padding: 4px 5px;
+   border-radius: 2px;
+   color: whitesmoke;
+   transition: 2s;
+
+}
+ul li .delete:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: rgba(18, 13, 13, 0.438);
+}
+#btn{
+    font-size:16px;
+    padding: 10px 190px;
+    border-radius: 0.3rem;
+    background-color: rgb(224, 214, 214);
+    margin: 3.5rem;
+}
+button{
+    font-size:16px;
+    padding: 10px 25px;
+    position: relative;
+    top: -0px;
+    left: -138px;
+    background-color: purple;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 3s;
+}
+button:hover{
+    background-color: crimson;
+    transform: scale(1.1);
+}
+
+#btn::placeholder{
+    font-size: 18px;
+    position: relative;
+    left: -185px;
+}
+
+#box{
+    margin: 3rem;
+}
